@@ -31,6 +31,10 @@ p {
   margin: 0 auto;
   padding-left: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 /* Контейнер    Секція */
 
@@ -169,7 +173,6 @@ p {
 .features-list {
   list-style: none;
   display: flex;
-  padding-left: 0;
 }
 .features-item:not(:last-of-type) {
   margin-right: 30px;
@@ -202,8 +205,6 @@ p {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding-left: 0;
-  margin: 0 auto;
 }
 .work-img {
   display: block;
@@ -305,8 +306,6 @@ p {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding-left: 0;
-  margin: 0;
   margin-bottom: 50px;
 }
 .filters-btn {
@@ -337,8 +336,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
-  margin: 0;
 }
 .projects-container {
   text-decoration: none;
