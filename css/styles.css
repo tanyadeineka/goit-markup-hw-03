@@ -37,7 +37,7 @@ ul {
 
 .container {
   width: 1200px;
-  margin: 0 215px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .section {
@@ -338,7 +338,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .project-kind {
   font-weight: 400;
@@ -351,7 +351,7 @@ ul {
   display: block;
 }
 .project-footer {
-  padding: 20px 0 20px 24px;
+  padding: 20px 10px 20px 24px;
   border-left: 1px solid var(--project-border);
   border-right: 1px solid var(--project-border);
   border-bottom: 1px solid var(--project-border);
