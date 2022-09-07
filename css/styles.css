@@ -27,8 +27,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0 auto;
   padding-left: 0;
 }
@@ -98,8 +97,7 @@ ul {
 .contacts-list {
   list-style: none;
   display: flex;
-  margin-right: 0;
-  /*margin-left: auto;*/
+  margin-left: auto;
 }
 .contacts {
   font-weight: 500;
@@ -144,7 +142,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px var(--box-shadow-btn);
+  border: none;
   border-radius: 4px;
   padding: 10px 32px;
   cursor: pointer;
@@ -171,6 +169,7 @@ ul {
 .features-list {
   list-style: none;
   display: flex;
+  padding-left: 0;
 }
 .features-item:not(:last-of-type) {
   margin-right: 30px;
@@ -192,6 +191,10 @@ ul {
 }
 
 /* Секція - Чим ми займаємося */
+
+.work-section {
+  padding-bottom: 94px;
+}
 .work {
   margin-bottom: 50px;
 }
@@ -199,7 +202,11 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.work-img {
+  display: block;
 }
 
 /* Секція - Наша команда*/
@@ -298,6 +305,8 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-left: 0;
+  margin: 0;
   margin-bottom: 50px;
 }
 .filters-btn {
@@ -328,6 +337,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-left: 0;
+  margin: 0;
 }
 .projects-container {
   text-decoration: none;
